@@ -25,7 +25,7 @@ const Breadths = () =>{
     return(
       list.map( (breadth) =>{
         return(
-          <li className='breadth-item'>{breadth.item.name}</li>
+          <li value={breadth.item.name} className='breadth-item'>{breadth.item.name}</li>
         )
       })
     )

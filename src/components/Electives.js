@@ -45,7 +45,7 @@ const Electives = () => {
     return(
       list.map( (item) =>{
         return(
-          <li className='elective-item'>{item.item.name}</li>
+          <li className='elective-item' value={item.item.name}>{item.item.name}</li>
         )
       })
     )
