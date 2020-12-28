@@ -28,7 +28,7 @@ function Sidebar({ setSubject, subject }) {
       return(
         cores.map( core => {
           return(
-            <li className='core-item'>{core.name}</li>
+            <li value={core.name} className='core-item'>{core.name}</li>
           )
         })
       )
