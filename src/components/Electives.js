@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js';
 
 
-const Electives = () => {
+const Electives = ( props) => {
   const [electives, setElectives] = useState([])
   const [selectedElective, setSelectedElective] = useState([])
   const [searchResults, setSearchResults] = useState([])
@@ -25,7 +25,7 @@ const Electives = () => {
       electives.map(
         (dept) =>{
           return(
-            <option value={dept.department} key={dept._id}>{dept.department}</option>
+            <option value={dept.department}  key={dept._id}>{dept.department}</option>
           )
         }
       )
@@ -45,7 +45,7 @@ const Electives = () => {
     return(
       list.map( (item) =>{
         return(
-          <li className='elective-item' value={item.item.name}>{item.item.name}</li>
+          <li className='elective-item' onClick={(e)=>props.addSubject(e.target.innerHTML)} value={item.item.name}>{item.item.name}</li>
         )
       })
     )

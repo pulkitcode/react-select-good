@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js'
 
 
-const Breadths = () =>{
+const Breadths = ( props ) =>{
   const [breadths, setBreadths] = useState([])
   const [searchTerm, setSearchTerm] = useState(null)
   const [searchResults, setSearchResults] = useState([])
@@ -25,7 +25,7 @@ const Breadths = () =>{
     return(
       list.map( (breadth) =>{
         return(
-          <li value={breadth.item.name} className='breadth-item'>{breadth.item.name}</li>
+          <li value={breadth.item.name} onClick={(e)=>props.addSubject(e.target.innerHTML)} className='breadth-item'>{breadth.item.name}</li>
         )
       })
     )

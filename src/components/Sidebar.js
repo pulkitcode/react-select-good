@@ -4,7 +4,7 @@ import Breadths from "./Breadths";
 import Electives from "./Electives";
 
 
-function Sidebar({ setSubject, subject }) {
+function Sidebar( props ) {
   const [majorList, setMajorList] = useState([])
   const [cores, setCores] = useState([])
 
@@ -28,7 +28,7 @@ function Sidebar({ setSubject, subject }) {
       return(
         cores.map( core => {
           return(
-            <li value={core.name} className='core-item'>{core.name}</li>
+            <li value={core.name} onClick={(e)=>props.addSubject(e.target.innerHTML)} className='core-item'>{core.name}</li>
           )
         })
       )
@@ -86,8 +86,8 @@ function Sidebar({ setSubject, subject }) {
             {renderCoreSubjects()}
           </ul>
         </div>
-        <Electives />
-        <Breadths />
+        <Electives addSubject={props.addSubject} />
+        <Breadths addSubject={props.addSubject} />
       </div>
     </div>
   );
