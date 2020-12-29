@@ -19,6 +19,19 @@ body{
   padding: 30px;
   background-color: #f4f3fc;
 }
+.main-grid{
+  background-color: #f4f3fc;
+  padding: 30px;
+
+
+}
+.close{
+  margin-left: 10px;
+  color: #fff !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+  border-radius: 100%;
+}
 .title{
   margin-top: 50px;
 }
@@ -58,12 +71,12 @@ body{
 .majorDropdown:focus{
   outline: none;
 }
-.core-list, .elective-list, .breadth-list{
+.core-list, .elective-list, .breadth-list, .selected-list{
   list-style: none;
   padding-left: 0%;
   display: inline-block;
 }
-.core-item, .elective-item, .breadth-item{
+.core-item, .elective-item, .breadth-item, .selected-item{
   color: #fff;
   background-color: #1f0664;
   border-radius: 10px;

@@ -23,7 +23,7 @@ const Main = () => {
               <Sidebar addSubject={addSubject} />
             </div>
             <div className='col-md-7 col-12'>
-              <MainGrid />
+              <MainGrid selectedSubjects={selectedSubjects} />
             </div>
           </div>
         </div>
