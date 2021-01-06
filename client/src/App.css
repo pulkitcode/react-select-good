@@ -11,8 +11,17 @@ body{
   border-radius: 0px 0px 0px 0px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
-.header .logo{
+.header .logo img{
   padding: 10px 10px;
+  width: 400px;
+}
+@media (max-width: 768px){
+  .header .logo img{
+    width: 100%;
+  }
+  .col-12{
+    padding-right: 0px !important;
+  }
 }
 .sidebar{
   height: 100%;

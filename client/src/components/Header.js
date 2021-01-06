@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='navbar header'>
       <div className='logo'>
-        <img src={logo} width='400'/>
+        <img src={logo}/>
       </div>
     </div>
   )
