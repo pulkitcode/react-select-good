@@ -44,11 +44,11 @@ body{
 .title{
   margin-top: 50px;
 }
-.majorDropdown{
+/* .majorDropdown{
   font-size: 24px;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
-}
+} */
 .majorDropdown:focus{
   outline: none;
 }
