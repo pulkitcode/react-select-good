@@ -65,7 +65,7 @@ const Electives = (props) => {
   }
 
   useEffect(()=>{
-    fetch('http://localhost:5000/Electives/')
+    fetch('https://planet-unimelb.herokuapp.com/Electives/')
     .then(res => res.json())
     .then(res => setElectives(res))
   }, [])

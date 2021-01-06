@@ -57,7 +57,7 @@ function Sidebar(props) {
   }
 
   useEffect(()=>{
-    fetch('http://localhost:5000/Majors/')
+    fetch('https://planet-unimelb.herokuapp.com/Majors/')
     .then( res => res.json() )
     .then( res => setMajorList(res))
   }, [])
