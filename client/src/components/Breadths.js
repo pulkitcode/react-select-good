@@ -41,7 +41,7 @@ const Breadths = (props) =>{
   }
 
   useEffect(()=>{
-      fetch('http://localhost:5001/Breadths/')
+      fetch('http://localhost:5000/Breadths/')
       .then(res => res.json())
       .then(res => setBreadths(res))
 

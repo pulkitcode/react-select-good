@@ -65,7 +65,7 @@ const Electives = (props) => {
   }
 
   useEffect(()=>{
-    fetch('http://localhost:5001/Electives/')
+    fetch('http://localhost:5000/Electives/')
     .then(res => res.json())
     .then(res => setElectives(res))
   }, [])
