@@ -31,8 +31,7 @@ body{
 .main-grid{
   background-color: #f4f3fc;
   padding: 30px;
-
-
+  min-height: 1000px;
 }
 .close{
   margin-left: 10px;
