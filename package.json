@@ -9,7 +9,6 @@
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node index.js"
-   
   },
   "keywords": [],
   "author": "",

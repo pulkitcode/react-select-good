@@ -14,6 +14,15 @@ const Main = () => {
     console.log(selectedSubjects)
   }
 
+  const removeSubject = (subject) =>{
+    const index = selectedSubjects.indexOf(subject.toString())
+    const subjects = selectedSubjects
+    subjects.splice(index, 1)
+    setSelectedSubjects(subjects)
+    // setSelectedSubjects(selectedSubjects.filter(item => item ==! subject))
+    console.log(selectedSubjects)
+}
+
   return (
     <div className="App">
       <Header />
@@ -23,7 +32,7 @@ const Main = () => {
               <Sidebar addSubject={addSubject} />
             </div>
             <div className='col-md-7 col-12'>
-              <MainGrid selectedSubjects={selectedSubjects} />
+              <MainGrid selectedSubjects={selectedSubjects} removeSubject={removeSubject} />
             </div>
           </div>
         </div>
