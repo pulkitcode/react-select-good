@@ -22,9 +22,9 @@ body{
   .header .logo img{
     width: 100%;
   }
-  .col-12{
+  /* .col-12{
     padding-right: 0px !important;
-  }
+  } */
 }
 .sidebar{
   height: 100%;
@@ -35,9 +35,8 @@ body{
   background-color: #f4f3fc;
   padding: 30px;
   min-height: 1000px;
-}
-.main-grid h3{
-  padding-top: 100px;
+  margin: 50px 0px;
+  border-radius: 20px;
 }
 .close{
   margin-left: 10px;
