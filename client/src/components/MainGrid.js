@@ -26,6 +26,7 @@ function MainGrid(props) {
     }
     return (
         <div className="main-grid">
+            <h3>Your Course Plan</h3>
             <ul className='selected-list'>
                 {renderSelectedSubjects()}
             </ul>

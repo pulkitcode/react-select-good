@@ -33,6 +33,9 @@ body{
   padding: 30px;
   min-height: 1000px;
 }
+.main-grid h3{
+  padding-top: 100px;
+}
 .close{
   margin-left: 10px;
   color: #fff !important;
