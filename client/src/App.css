@@ -30,6 +30,8 @@ body{
   height: 100%;
   padding: 30px;
   background-color: #f4f3fc;
+  margin: 50px 0px;
+  border-radius: 20px;
 }
 .main-grid{
   background-color: #f4f3fc;
