@@ -32,13 +32,13 @@ function Sidebar(props) {
         })
       )
     }
-    else{
-      return(
-        <div className='text-center'>
-          <h2>Select a Major</h2>
-        </div>
-      )
-    }
+    // else{
+    //   return(
+    //     <div className='text-center'>
+    //       <h2>Select a Major</h2>
+    //     </div>
+    //   )
+    // }
   }
 
   const renderMajors = () => {
@@ -67,6 +67,7 @@ function Sidebar(props) {
   return (
     <div className="sidebar">
       <div className=''>
+        <p>*Click to add Subjects</p>
         <form className='major'>
           <div className='title'>
             <h3>Select Your Major:</h3>
