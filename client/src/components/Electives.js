@@ -80,6 +80,7 @@ const Electives = (props) => {
         id='electivesSelect'
         onChange={(e)=>handleDeptChange(e)}
       >
+        <option>Select a Department</option>
         {renderElectiveDepartments()}
       </select>
       <form onSubmit={(e)=> handleSearch(e)}>

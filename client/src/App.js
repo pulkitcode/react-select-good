@@ -1,6 +1,6 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import { useState, useEffect } from 'react'
+import '../node_modules/font-awesome/css/font-awesome.min.css'
 import Main from './components/Main';
 
 

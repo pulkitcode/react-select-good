@@ -34,7 +34,9 @@ function Sidebar(props) {
     }
     else{
       return(
-        <h2>Select a Major</h2>
+        <div className='text-center'>
+          <h2>Select a Major</h2>
+        </div>
       )
     }
   }
@@ -74,6 +76,7 @@ function Sidebar(props) {
             id="majorSelect" 
             onChange={(e)=>handleOnChange(e.target)}
           >
+            <option>Select a Major</option>
             {renderMajors()}
           </select> 
         </form>
