@@ -1,6 +1,7 @@
 # Planet
 
 Open Source University of Melbourne AI Course Planner made using React.js and Python. (In Progress)
+This is the first version of this web application and better versions with more features would be out soon.
 
 <p align = "center">
 <img width ="300" src = "_shared/planet.jpeg"/>
@@ -14,7 +15,7 @@ Open Source University of Melbourne AI Course Planner made using React.js and Py
 - Features a download feature to download their entire course plan.
 - A project to make the subject selection process for Unimelb students better.
 
-This is the first version of this web application and better versions including the above features would be out soon.
+
 
 
 # Development Team - Leads
