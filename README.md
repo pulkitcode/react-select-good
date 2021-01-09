@@ -24,6 +24,10 @@ This is the first version of this web application and better versions including 
 # Tools Used
 - React (Cross-platform web framework for building the front end)
 - MongoDB (To store and retrieve data)
+- Python (To scrape subjects data)
+- Selenium (To make a bot to scrape all the data)
+- Node.js (JavaScript runtime environment that executes JavaScript code outside a web browser)
+- Express
 
 
 # Contribute
@@ -58,4 +62,4 @@ If this doesn't work, please don't hesitate to contact any of us.
 
  - React js Tutorial https://reactjs.org/tutorial/tutorial.html
  - Mern Stack Deployment on Heroku Tutorial https://www.youtube.com/watch?v=5PaUiPyBDJY
- 
+ - Making a Selenium Bot https://www.youtube.com/watch?v=d2GBO_QjRlo
