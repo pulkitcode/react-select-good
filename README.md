@@ -27,6 +27,35 @@ This is the first version of this web application and better versions including 
 
 
 # Contribute
-Make a pull request to contribute or contact any of the project leads to understand and help in making the future versions.
+Make a pull request to contribute or contact any of the project leads to understand and help in making the future versions. We learned React and other technologies from scratch in order to make this project, even if you think you don't know these technologies we would love to help you get through the process.
+
+# Installation 
+
+## Node.js Installation
+
+In the root folder, run the command:
+
+```shell
+npm install
+```
+
+### React JS Installation
+
+Now, go into the `client` folder and run the command:
+
+```shell
+cd client
+npm install
+```
+Now, in the same `client` folder run the command:
+
+```shell
+npm start
+```
+If this doesn't work, please don't hesitate to contact any of us.
 
 # Relevant Docs
+
+ - React js Tutorial https://reactjs.org/tutorial/tutorial.html
+ - Mern Stack Deployment on Heroku Tutorial https://www.youtube.com/watch?v=5PaUiPyBDJY
+ 
